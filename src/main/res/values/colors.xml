@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green_4d">#ff4dbf8a</color>
+    <color name="bull_44">#ff44ade8</color>
+
+
+
+    <color name="black">#ff000000</color>
+    <color name="black_222">#222</color>
+    <color name="orange_bg">#fffb7032</color>
+    <color name="gray_7f">#ff7f7f7f</color>
+    <color name="gray_e7e">#ffe7e7e7</color>
+    <color name="gray_ef">#ffefefef</color>
+    <color name="gray_f0">#fff0eff5</color>
+    <color name="gray_91">#ff919191</color>
+    <color name="gray_9e">#ff9e9e9e</color>
+    <color name="gray_d4">#ffd4d4d4</color>
+    <color name="gray_dark_66">#ff666666</color>
+    <color name="main_color">#ffd6b585</color>
+    <color name="orange">#fffd9a13</color>
+    <color name="red_d4">#ffd43a31</color>
+    <color name="red_e8">#ffe84d40</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="text_black">#ff4b4b4b</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="sz_rsfw_text">#4b4b4a</color>
+    <color name="line">#cbd4dc</color>
+    <color name="text_8b">#888</color>
+    <color name="gainsboro">#dcdcdc</color><!--淡灰色 -->
+    <!--淡灰色 -->
+    <color name="title_c">#ff5499eb</color>
+    <color name="gray_22">#222222</color>
+
+    <color name="nearby_bule">#FF3E94F8</color>
+    <color name="spliter_color">#cfcfcf</color>
+    <color name="background_line_gray">#E7E7E7</color>
+    <color name="background_line_gray1">#F9F9F9</color>
+
+    <color name="background_jbxx">#ffc000</color>
+    <color name="background_cbxx">#c669dd</color>
+    <color name="background_jfxx">#92d050</color>
+    <color name="background_dyxx">#9bc2e6</color>
+    <color name="background_rd">#ffcccc</color>
+    <color name="background_jd">#ff66ff</color>
+    <color name="text_black_shen">#555555</color>
+
+    <color name="green_cc">#15c07b</color>
+    <color name="blue_a">#05a1e6</color>
+    <color name="blue_b">#00bbff</color>
+    <color name="blue_c">#1d4a94</color>
+    <color name="black_888">#888</color>
+    <color name="orange_fefa40">#fefa40</color>
+
+
+    <!--首页item文字颜色-->
+    <color name="colorSubtitle">#999</color>
+
+    <!--列表文字颜色-->
+    <color name="colorTitle">#666</color>
+
+
+    <color name="colorWhite">#ffffffff</color>
+
+    <!--首页分割线-->
+
+    <color name="colorLine">#EBEBEB</color>
+
+</resources>

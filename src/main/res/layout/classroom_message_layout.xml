@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_line_gray"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_layout_main"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:background="@color/gray_ef">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="教    室" />
+
+            <EditText
+                android:id="@+id/user"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignTop="@+id/textView8"
+                android:layout_marginStart="11dp"
+                android:layout_toEndOf="@+id/textView8"
+                android:background="@color/white"
+                android:ems="14"
+                android:hint="请输入教室号"
+                android:inputType="number"
+                android:maxLength="11"
+                android:paddingLeft="10dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="科    目" />
+
+            <EditText
+                android:id="@+id/pwd"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignTop="@+id/textView9"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/textView9"
+                android:background="@color/white"
+                android:ems="14"
+                android:hint="请输入类型"
+                android:inputType="number"
+                android:maxLength="11"
+                android:paddingLeft="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/bj"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="开始时间" />
+
+            <EditText
+                android:id="@+id/class_text"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/bj"
+                android:layout_alignBottom="@+id/bj"
+                android:layout_marginStart="14dp"
+                android:layout_toEndOf="@+id/bj"
+                android:background="@color/white"
+                android:ems="14"
+                android:gravity="left"
+                android:hint="时间格式2018-05-12"
+                android:inputType="textMultiLine"
+                android:maxLength="30"
+                android:paddingLeft="10dp"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/ls"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="结束时间" />
+
+            <EditText
+                android:id="@+id/teacher_text"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/ls"
+                android:layout_alignBottom="@+id/ls"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@+id/ls"
+                android:background="@color/white"
+                android:ems="14"
+                android:gravity="left"
+                android:hint="时间格式2018-05-12"
+                android:inputType="textMultiLine"
+                android:maxLength="30"
+                android:paddingLeft="10dp"
+                android:text="" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8">
+
+            <TextView
+                android:id="@+id/sm"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="其他说明" />
+
+            <EditText
+                android:id="@+id/sm_text"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/sm"
+                android:background="@color/white"
+                android:ems="14"
+                android:gravity="left"
+                android:hint="如果有补充请输入"
+                android:inputType="textMultiLine"
+                android:maxLength="30"
+                android:paddingLeft="10dp"
+                android:text="" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/zc"
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="提   交"
+                android:textColor="@color/sz_rsfw_text" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="19dp"
+            app:srcCompat="@mipmap/leave" />
+    </RelativeLayout>
+
+</LinearLayout>
